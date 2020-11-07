@@ -1,0 +1,44 @@
+.container {
+    width: 100%;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    background: #2a1ca7;
+}
+
+.tittle-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-items: center;*/
+}
+
+.container .tittle-container h1 {
+    color: white;
+    font-size: 30px;
+}
+
+.container .tittle-container p {
+    color: rgb(123, 122, 209);
+    margin-top: 15px;
+}
+
+.card {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    max-width: 300px;
+    min-height: 500px;
+    max-height: 500px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}

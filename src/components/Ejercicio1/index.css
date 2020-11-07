@@ -1,0 +1,130 @@
+.container {
+    width: 100%;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #e7ecee;
+}
+
+.tittle-container {
+    margin:  auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.panel {
+    background: #ffffff;
+    border-top: 8px rgb(42, 142, 235) solid;
+    margin:  auto;
+    width: 50%;
+    max-width: 400px;
+    min-height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 40px;
+    box-shadow: 4px 4px 10px -1px rgba(0,0,0,0.75);
+}
+
+.tittle-panel {
+    /*margin:  auto;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container .panel .tittle-panel label {
+    color: #939da1;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.container .panel .tittle-panel p {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.body-amount {
+    /*margin:  auto;*/
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*padding: 0px 40px;*/
+}
+
+.container .panel label {
+    font-weight: 600;
+    color: #8a9497;
+    margin-bottom: 3px;
+}
+
+.container .panel .body-amount input {
+    /*border-radius: 5px;*/
+    border: 2px solid rgb(224, 221, 221);
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+    /*border: none;*/
+    outline: none;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+}
+
+.body-countries {
+    /*margin:  auto;*/
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*padding: 0px 40px;*/
+}
+
+.body-selectors {
+    /*margin:  auto;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*padding: 0px 40px;*/
+}
+
+.container .panel .body-countries .body-selectors select {
+    border: 2px solid rgb(224, 221, 221);
+    border-radius: 5px;
+    font-weight: bold;
+    outline: none;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.container .panel .body-countries .body-selectors button {
+    border: none;
+    font-weight: bold;
+    outline: none;
+    padding: 10px;
+    margin: 0px 40px;
+}
+
+.body-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container .panel .body-btn button {
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(42, 142, 235);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 40px;
+}
