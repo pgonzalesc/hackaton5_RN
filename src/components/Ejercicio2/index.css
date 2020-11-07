@@ -1,4 +1,4 @@
-.container {
+.container-news {
     width: 100%;
     padding: 20px 20px;
     display: flex;
@@ -7,19 +7,19 @@
     background: #2a1ca7;
 }
 
-.tittle-container {
+.tittle-container-news {
     display: flex;
     flex-direction: column;
     justify-content: center;
     /*align-items: center;*/
 }
 
-.container .tittle-container h1 {
+.container-news .tittle-container-news h1 {
     color: white;
     font-size: 30px;
 }
 
-.container .tittle-container p {
+.container-news .tittle-container-news p {
     color: rgb(123, 122, 209);
     margin-top: 15px;
 }
@@ -32,13 +32,43 @@
     align-items: center;
     background-color: white;
     max-width: 300px;
-    min-height: 500px;
-    max-height: 500px;
+    min-height: 550px;
+    max-height: 550px;
 }
 
 .card-body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 30px;
+    padding: 15px 30px;
+}
+
+.card-image {
+    display: flex;
+    
+}
+
+.container-news .card .card-body .news-date p {
+    /*margin: 10px 0px;*/
+    font-size: 12px;
+    font-weight: bold;
+    color: gray;
+}
+
+.container-news .card .card-body .news-tittle h1 {
+    margin: 10px 0px;
+}
+
+.container-news .card .card-image img {
+    width: 100%;
+    
+}
+
+.news-footer {
+    padding: 30px 0px;
+}
+
+.container-news .card .card-body .news-footer p {
+    font-weight: bold;
+    color: rgb(125, 23, 209);
 }
